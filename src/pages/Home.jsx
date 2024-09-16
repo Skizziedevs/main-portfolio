@@ -8,7 +8,7 @@ import Form from "../components/Form"
 import {
       FaFacebook,
   
-      FaReddit,
+      FaGithub,
       FaLinkedin,
       FaTwitter,
       FaJsSquare,
@@ -42,18 +42,27 @@ const Home = () => {
             I blend creativity and technical expertise to bring visions to life.
           </p>
           <div className="flex space-x-[10px] pt-[19px] omd:pt-[25px]">
-            <div className="w-[40px] cursor-pointer hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
-              <FaFacebook className="text-[18px] " />
-            </div>
-            <div className="w-[40px] cursor-pointer  hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
-              <FaReddit className="text-[18px]" />
-            </div>
-            <div className="w-[40px] cursor-pointer  hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
-              <FaTwitter className="text-[18px]" />
-            </div>
-            <div className="w-[40px] cursor-pointer  hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
-              <FaLinkedin className="text-[18px]" />
-            </div>
+          <div className="w-[40px] cursor-pointer hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
+          <FaFacebook className="text-[18px]" />
+        </div>
+        <div className="w-[40px] cursor-pointer hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
+          <a href="https://github.com/skizziedevs">
+            <FaGithub className="text-[18px]" />
+          </a>
+        </div>
+        <div className="w-[40px] cursor-pointer hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
+          <a href="https://x.com/KMB_offish?t=sHpNJdwg29ltzrA732Sndw&s=09">
+            <FaTwitter className="text-[18px]" />
+          </a>
+        </div>
+        <div className="w-[40px] cursor-pointer hover:bg-black hover:text-white border-[2px] px-[10px] py-[10px] rounded-md border-black">
+          <a
+            href="https://www.linkedin.com/in/kingsley-onwura-895a28269?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app
+"
+          >
+            <FaLinkedin className="text-[18px]" />
+          </a>
+        </div>
           </div>
         </div>
         <div>

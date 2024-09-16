@@ -104,7 +104,9 @@ const Projects = () => {
               ability to create responsive and visually appealing web pages that
               effectively showcase content and design proficiency.
             </p>
-            <FaExternalLinkAlt className="text-[18px] mt-[16px]" />
+            <a href="https://pro-manage-portfolio.netlify.app">
+              <FaExternalLinkAlt className="text-[18px] mt-[16px]" />
+            </a>
           </div>
         </div>
         <div className=" reverse  items-center ipad:justify-around pt-[50px] ">
@@ -162,7 +164,9 @@ const Projects = () => {
               asynchronous data requests, while also demonstrating a clean and
               responsive user interface built with Vue js and Tailwind css.
             </p>
-            <FaExternalLinkAlt className="text-[18px] mt-[16px]" />
+            <a href="https://my-advicerapp.netlify.app">
+              <FaExternalLinkAlt className="text-[18px] mt-[16px]" />
+            </a>
           </div>
         </div>
         <div className=" reverse  items-center  ipad:justify-around pt-[50px] ">
@@ -190,7 +194,7 @@ const Projects = () => {
               particularly Tailwind, and my ability to create well-organized and
               maintainable front-end code.
             </p>
-            <a href="https://pro-manage-portfolio.netlify.app">
+            <a href="https://vue-manager.netlify.app">
               <FaExternalLinkAlt className="text-[18px] mt-[16px]" />
             </a>
           </div>
@@ -255,7 +259,7 @@ const Projects = () => {
               scalable, interactive web applications with a strong focus on user
               experience and modern development practices.
             </p>
-            <a href="">
+            <a href="https://entertainment-magnet-hub.netlify.app">
               <FaExternalLinkAlt className="text-[18px] mt-[16px]" />
             </a>
           </div>

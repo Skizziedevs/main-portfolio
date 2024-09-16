@@ -7,7 +7,7 @@ const Navbar = () => {
 
   return (
     <nav className='flex justify-between items-center py-[15px] px-[22px] md:px-[50px] ld:px-[130px] omd:px-[90px] bg-white'>
-      <div className='text-xl font-bold'>
+      <div className='text-xl cursor-default font-bold'>
         <h2>Skizzie Devs</h2>
       </div>
       <div className='hidden mid:flex space-x-4 omd:space-x-6'>
